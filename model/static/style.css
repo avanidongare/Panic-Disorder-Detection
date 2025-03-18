@@ -1,0 +1,65 @@
+*{
+   font-family: poppins;
+   margin: 0;
+   padding: 0;
+}
+
+.nav{
+    display: flex;
+    background-color: #334752;
+    height: 8.5vh;
+}
+
+.navcontents{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navcontents a button{
+    margin-left: 160vh;
+    border: none;
+    display: block;
+    border-radius: 20px;
+    background-color: yellow;
+    height: 6vh;
+    padding: 1vh;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navcontents a button:hover{
+    background-color: red;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.navcontents h2{
+    padding-left: 6vh;
+    color: azure;
+}
+
+.navcontents h3:hover{
+    color: brown;
+    transition: 0.5s;
+}
+
+.panicimg{
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+
+    background-color: #334752;
+}
+
+.syandc{
+    background-color: #334752;
+}
+
+.treatment{
+    background-color: #334752;
+}
